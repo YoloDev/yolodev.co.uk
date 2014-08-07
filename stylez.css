@@ -30,6 +30,7 @@ article {
 /* styles for da pages */
 body > h1 {
   font-size: 3rem;
+  text-overflow: hidden;
 }
 
 
