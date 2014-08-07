@@ -21,7 +21,7 @@ h1 {
   text-align: right;
   line-height: 2rem;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
 }
 a {
   color: inherit;
