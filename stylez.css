@@ -32,9 +32,14 @@ article {
 
 /* sidebarsies */
 body > aside {
+  font-size: 0.5rem;
   position: fixed;
   top: 50%;
   right: 0;
+  width: 5rem;
+  background: #333;
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
 
