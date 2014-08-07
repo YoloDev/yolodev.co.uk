@@ -56,6 +56,16 @@ article p * {
   font-family: 'Roboto', sans-serif;
 }
 
+article * {
+    cursor: inherit;
+    -webkit-touch-callout: all;
+    -webkit-user-select: all;
+    -khtml-user-select: all;
+    -moz-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
+}
+
 
 /* sidebarsies */
 body > aside {
