@@ -19,6 +19,7 @@ h1 {
   font-size: 2rem;
   text-align: right;
   font-style: italic;
+  margin-right: 1vw;
 }
 a {
   color: inherit;
