@@ -34,15 +34,14 @@ article {
 body > aside {
   font-size: 0.5rem;
   position: fixed;
-  top: 50%;
+  top: 25%;
   right: 0;
   width: 5rem;
   background: #333;
   margin: 0.5rem;
-  padding: 0.5rem;
 }
 body > aside li {
-  margin: 0.5rem 0;
+  margin: 0.5rem;
 }
 
 
