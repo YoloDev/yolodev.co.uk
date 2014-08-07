@@ -40,6 +40,9 @@ body > aside {
   background: #333;
   margin: 0.5rem;
 }
+body > aside h1 {
+  font-size: 0.75rem;
+}
 body > aside li {
   margin: 0.5rem;
 }
