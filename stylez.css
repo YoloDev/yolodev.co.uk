@@ -35,6 +35,11 @@ article p {
   margin: 0.5rem;
 }
 
+article p,
+article p * {
+  font-family: 'Raleway', sans-serif;
+}
+
 
 /* sidebarsies */
 body > aside {
