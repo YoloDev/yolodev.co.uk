@@ -104,13 +104,16 @@ html {
 
 
 /* THE FANCY */
+body {
+  perspective: 500px;
+}
 body > * {
   animation-name: fadein;
-  animation-duration: 1s;
+  animation-duration: 2s;
 }
 @keyframes fadein {
   from {
     opacity: 0;
-    transform: rotateY(30deg);
+    transform: rotateX(60deg);
   }
 }
