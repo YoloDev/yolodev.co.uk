@@ -1,3 +1,5 @@
+@import '//fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab:300,400)';
+
 * {
   margin: 0;
   padding: 0;
@@ -18,9 +20,9 @@ body {
   margin-bottom: 5vh;
 }
 h1 {
+  font-family: "Roboto Slab", serif;
   font-size: 2rem;
   text-align: right;
-  font-style: italic;
   margin-right: 1vw;
 }
 a {
