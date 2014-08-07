@@ -8,9 +8,6 @@
 ul {
   list-style-type: none;
 }
-html {
-  font-size: 10vw;
-}
 body {
   background: black;
   color: white;
@@ -73,6 +70,10 @@ body {
 
 
 /* mobile first, desktop first, all first.. all in */
+
+html {
+  font-size: 5vw;
+}
 @media (min-width: 700px) {
   html { font-size: 3vw; }
 }
