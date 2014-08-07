@@ -13,8 +13,7 @@ body {
   color: white;
   font-size: 1rem;
   font-family: 'Roboto', sans-serif;
-  margin-top: 10vh;
-  margin-bottom: 5vh;
+  padding: 5rem;
 }
 h1 {
   font-family: "Roboto Slab", serif;
@@ -61,6 +60,7 @@ body > aside li {
 
 /* THE TITLE.. ITS A PRE */
 pre {
+  margin-top: 10rem;
   font-family: monospace;
   font-size: 0.75rem;
 }
