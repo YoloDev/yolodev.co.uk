@@ -26,7 +26,7 @@ a {
   color: inherit;
 }
 article {
-  background: #555;
+  background: #333;
   margin: 0.5rem;
   width: 15rem;
   max-width: 100%;
@@ -48,7 +48,7 @@ body > aside {
   top: 25%;
   right: 0;
   width: 5rem;
-  background: #555;
+  background: #333;
   margin: 0.5rem;
 }
 body > aside h1 {
