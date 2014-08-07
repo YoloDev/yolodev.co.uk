@@ -76,7 +76,7 @@ body {
 /* shadowzes */
 article {
   border: 1px solid #666;
-  box-shadow: 0 0 3rem #555, 0 0 3rem #555, 0 0 3rem #555;
+  box-shadow: 0 0 5rem #555;
 }
 
 
