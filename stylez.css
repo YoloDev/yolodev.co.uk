@@ -27,6 +27,12 @@ article {
 }
 
 
+/* styles for da pages */
+body > h1 {
+  font-size: 5rem;
+}
+
+
 
 /* center dat shit */
 body {
