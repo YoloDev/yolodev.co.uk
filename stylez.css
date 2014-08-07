@@ -26,7 +26,7 @@ a {
   color: inherit;
 }
 article {
-  background: #333;
+  background: #555;
   margin: 0.5rem;
   width: 15rem;
   max-width: 100%;
@@ -48,7 +48,7 @@ body > aside {
   top: 25%;
   right: 0;
   width: 5rem;
-  background: #333;
+  background: #555;
   margin: 0.5rem;
 }
 body > aside h1 {
@@ -75,8 +75,8 @@ body {
 
 /* shadowzes */
 article {
-  border: 1px solid #444;
-  box-shadow: 0 0 5rem #333, 0 0 5rem #333, 0 0 5rem #333;
+  border: 1px solid #666;
+  box-shadow: 0 0 3rem #555, 0 0 3rem #555, 0 0 3rem #555;
 }
 
 
