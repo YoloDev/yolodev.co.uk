@@ -75,7 +75,8 @@ body {
 
 /* shadowzes */
 article {
-  box-shadow: 0 0 2rem #fff;
+  border: 1px solid #444;
+  box-shadow: 0 0 5rem #222;
 }
 
 
