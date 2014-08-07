@@ -100,3 +100,16 @@ html {
  @media (min-width: 1300px) {
   html { font-size: 2vw; }
 } 
+
+
+
+/* THE FANCY */
+body > * {
+  animation-name: fadein;
+  animation-duration: 1s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+}
