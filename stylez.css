@@ -19,7 +19,9 @@ h1 {
   font-family: "Roboto Slab", serif;
   font-size: 2rem;
   text-align: right;
-  margin-right: 1vw;
+  line-height: 2rem;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.2);
 }
 a {
   color: inherit;
