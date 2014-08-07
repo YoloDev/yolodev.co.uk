@@ -73,6 +73,11 @@ body {
   align-items: center;
 }
 
+/* shadowzes */
+article {
+  box-shadow: 0 0 2rem #fff;
+}
+
 
 /* mobile first, desktop first, all first.. all in */
 
