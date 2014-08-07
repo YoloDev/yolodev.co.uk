@@ -27,14 +27,6 @@ article {
 }
 
 
-/* styles for da pages */
-body > h1 {
-  font-size: 3rem;
-  text-overflow: hidden;
-}
-
-
-
 /* center dat shit */
 body {
   display: flex;
