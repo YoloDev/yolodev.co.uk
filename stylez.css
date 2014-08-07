@@ -80,6 +80,9 @@ article {
   border: 1px solid #444;
   box-shadow: 0 0 5rem #555;
 }
+pre {
+  text-shadow: 0 0 5rem #555;
+}
 
 
 /* mobile first, desktop first, all first.. all in */
