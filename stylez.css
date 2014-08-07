@@ -56,7 +56,7 @@ body > aside li {
 
 /* THE TITLE.. ITS A PRE */
 pre {
-  font-family: monospace;
+  font-family: Courier;
   font-size: 0.75rem;
 }
 
