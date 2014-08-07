@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 html {
   font-size: 10vw;
@@ -25,7 +26,15 @@ article {
 
 
 
+/* center dat shit */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+
+/* mobile first, desktop first, all first.. all in */
 @media (min-width: 700px) {
   html { font-size: 3vw; }
 }
