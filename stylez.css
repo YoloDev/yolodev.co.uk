@@ -1,16 +1,60 @@
+/* fonts */
 @import '//fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Slab:300,400)';
+html {
+  font-size: 5vw;
+}
+@media (min-width: 700px) {
+  html { font-size: 3vw; }
+}
+ @media (min-width: 1300px) {
+  html { font-size: 2vw; }
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+pre {
+  font-family: monospace;
+  font-size: 0.75rem;
+}
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 2rem;
+  text-align: right;
+  line-height: 2rem;
+}
+article p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
 
+
+
+/* margins */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 3rem;
+}
+article, article p {
+  margin: 0.5rem;
+}
+
+
+
+/* border box */
+* {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    cursor: default;
 }
-ul {
-  list-style-type: none;
-}
+
+
+
+/* text selecting */
 html {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -19,46 +63,7 @@ html {
     -ms-user-select: none;
     user-select: none;
 }
-body {
-  background: CornflowerBlue; 
-  color: white;
-  font-size: 1rem;
-  font-family: 'Roboto', sans-serif;
-  padding: 3rem;
-  min-height: 100%;
-}
-h1 {
-  font-family: "Roboto Slab", serif;
-  font-size: 2rem;
-  text-align: right;
-  line-height: 2rem;
-  overflow: hidden;
-  background: rgba(255, 255, 255, 0.1);
-  padding-right: 0.3rem;
-}
-a {
-  color: inherit;
-  cursor: pointer;
-}
-article {
-  background: #333;
-  margin: 0.5rem;
-  width: 15rem;
-  max-width: 100%;
-}
-article p {
-  margin: 0.5rem;
-  font-size: 0.8rem;
-  line-height: 1rem;
-}
-
-article p,
-article p * {
-  font-family: 'Roboto', sans-serif;
-}
-
 article * {
-    cursor: inherit;
     -webkit-user-select: text;
     -khtml-user-select: text;
     -moz-user-select: text;
@@ -67,40 +72,45 @@ article * {
 }
 
 
-/* sidebarsies */
-body > aside {
-  font-size: 0.5rem;
-  position: fixed;
-  top: 25%;
-  right: 0;
-  width: 5rem;
-  background: #333;
-  margin: 0.5rem;
+
+/* cursors */
+* {
+  cursor: default;
 }
-body > aside h1 {
-  font-size: 0.75rem;
+article * {
+  cursor: inherit;
 }
-body > aside li {
-  margin: 0.5rem;
+a {
+  cursor: pointer;
 }
 
 
-/* THE TITLE.. ITS A PRE */
-pre {
-  font-family: monospace;
-  font-size: 0.75rem;
+
+/* list styles */
+ul {
+  list-style-type: none;
 }
 
 
-/* center dat shit */
+
+/* colors */
 body {
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    align-items: center;
+  background: CornflowerBlue;
+  color: white;
+}
+article {
+  background: #333;
+}
+h1 {
+  background: rgba(255, 255, 255, 0.1);
+}
+a {
+  color: inherit;
 }
 
-/* shadowzes */
+
+
+/* shadows */
 body {
   box-shadow: inset 0 0 15rem #555, inset 0 0 5rem #555;
 }
@@ -113,17 +123,37 @@ pre {
 }
 
 
-/* mobile first, desktop first, all first.. all in */
 
-html {
-  font-size: 5vw;
+
+/* sadlfdASJFDLFDJF SDLFJ FDALJKFSDL */
+/* sadlfdASJFDLFDJF SDLFJ FDALJKFSDL */
+/* sadlfdASJFDLFDJF SDLFJ FDALJKFSDL */
+/* sadlfdASJFDLFDJF SDLFJ FDALJKFSDL */
+/* sadlfdASJFDLFDJF SDLFJ FDALJKFSDL */
+/* sadlfdASJFDLFDJF SDLFJ FDALJKFSDL */
+/* sadlfdASJFDLFDJF SDLFJ FDALJKFSDL */
+/* sadlfdASJFDLFDJF SDLFJ FDALJKFSDL */
+body {
+  min-height: 100%;
 }
-@media (min-width: 700px) {
-  html { font-size: 3vw; }
+h1 {
+  overflow: hidden;
+  padding-right: 0.3rem;
 }
- @media (min-width: 1300px) {
-  html { font-size: 2vw; }
-} 
+article {
+  width: 15rem;
+  max-width: 100%;
+}
+
+
+
+/* center dat shit */
+body {
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 
