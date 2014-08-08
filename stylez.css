@@ -124,20 +124,22 @@ pre {
 
 
 
-
-/* sadlfdASJFDLFDJF SDLFJ FDALJKFSDL */
-/* sadlfdASJFDLFDJF SDLFJ FDALJKFSDL */
-/* sadlfdASJFDLFDJF SDLFJ FDALJKFSDL */
-/* sadlfdASJFDLFDJF SDLFJ FDALJKFSDL */
-/* sadlfdASJFDLFDJF SDLFJ FDALJKFSDL */
-/* sadlfdASJFDLFDJF SDLFJ FDALJKFSDL */
-/* sadlfdASJFDLFDJF SDLFJ FDALJKFSDL */
-/* sadlfdASJFDLFDJF SDLFJ FDALJKFSDL */
-body {
-  min-height: 100%;
-}
+/* overflows */
 h1 {
   overflow: hidden;
+}
+
+
+
+/* layout */
+body {
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+}
+h1 {
   padding-right: 0.3rem;
 }
 article {
@@ -147,17 +149,7 @@ article {
 
 
 
-/* center dat shit */
-body {
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-
-/* THE FANCY */
+/* fadein animation */
 body {
     -webkit-perspective: 500px;
     -moz-perspective: 500px;
