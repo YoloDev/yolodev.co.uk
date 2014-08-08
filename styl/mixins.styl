@@ -1,0 +1,27 @@
+vendor-prefix(name, args)
+  for v in vendors
+    if v == official
+      {name}: args
+    else
+      -{v}-{name}: args
+
+border-radius()
+  vendor-prefix(border-radius, arguments)
+
+box-sizing()
+  vendor-prefix(box-sizing, arguments)
+
+user-select()
+  vendor-prefix(user-select, arguments)
+
+perspective()
+  vendor-prefix(perspective, arguments)
+
+animation-name()
+  vendor-prefix(animation-name, arguments)
+
+animation-duration()
+  vendor-prefix(animation-duration, arguments)
+
+transform()
+  vendor-prefix(transform, arguments)
